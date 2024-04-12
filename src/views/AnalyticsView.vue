@@ -34,7 +34,7 @@ export default {
 				x: am5.percent(50),
 				centerX: am5.percent(50),
 				paddingTop: 0,
-				paddingBottom: 15,
+				paddingBottom: 20,
 			})
 		);
 
@@ -150,10 +150,13 @@ export default {
 }
 .title {
 	font-family: Helvetica, sans-serif;
-	color: #000;
+	color: #fff;
+	margin-bottom: 20px;
 }
 .hello {
 	width: 90%;
 	height: 500px;
+	background-color: #fff;
+	border-radius: 12px;
 }
 </style>
